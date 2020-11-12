@@ -192,6 +192,60 @@ main .second .reports .item > p span {
   line-height: 30px;
 }
 
+main .third {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+main .third .infocard {
+  display: flex;
+  flex-direction: column;
+  max-width: 470px;
+}
+
+main .third .infocard > h3 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+}
+
+main .third .infocard > p {
+  margin-top: 20px; 
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+main .third .infocard ul {
+  margin-top: 20px;
+}
+
+main .third .infocard ul li {
+  display: flex;
+  align-items: center;
+
+  list-style-type: none;
+  margin-bottom: 15px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #4F5665;
+}
+
+main .third .infocard ul li > img {
+  margin-right: 10px;
+}
+
 @media (min-width: 1170px) {
   .container {
     max-width: 1170px;
