@@ -255,6 +255,8 @@ main .fourth {
 }
 
 main .fourth .information > h3 {
+  margin-top: 30px;
+
   font-family: Rubik;
   font-style: normal;
   font-weight: 500;
